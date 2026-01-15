@@ -174,7 +174,7 @@ def scrape_mba_colleges():
 
     try:
        data = {
-              "Diploma":{
+              "Distance_Diploma":{
                    "overviews":extract_course_data(driver),
                    }
                 }
